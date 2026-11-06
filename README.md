@@ -1,9 +1,8 @@
 # OHF Community Day assets and templates
 
-The dir `assets` contains assets used for documents and presentations, `.typ` files in the root dir are sample Typst documents for A4 handouts/posters and presentations.
+This repo contains assets and templates which could be useful for Community Day Hosts.
 
-The Typst compiler is available to download at https://typst.app/open-source/. Alternatively, you can use the web-editor at https://typst.app/app. You should be able to upload the whole `assets` directory to the editor and then copy and paste the example you want to start with.
+If you made something which was used for a community day, feel free to add it with a Pull Request!
+Every directory should contain a small description about what it is / how to use and a license information. You can create subdirs as needed, e.g. `3d-printing/cool-magnets-by-me/...`.
 
-![Document Sample](README-document.png) 
-
-![Presentation Sample](README-presentation.png)
+- `documents` contains typst templates for DIN A4 posters/handouts and presentations, including their assets

@@ -99,9 +99,7 @@
 // 5 · content — faded
 #content-slide[About these slides][
   #par(spacing: 0.65em)[
-    Content slides use the #text(weight: 800)[faded] backdrop so body copy stays readable; titles and text sit on the gentle left gradient, clear of the leaf cluster in the upper right.
-    Full-opacity slides anchor their text in the lower-left corner, matching the original layout.
-    Both backdrops are the same 16:9 crop, rendered in two strengths.
+    #lorem(50)
   ]
 ]
 

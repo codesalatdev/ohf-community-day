@@ -72,12 +72,9 @@
 )
 
 #section-heading[Good to know]
-Bring a badge lanyard if you have one, a laptop for the workshops, and the
-questions you have been putting off. The venue is stepless, there is a quiet
-room next to the main hall, and recordings land in the community forum in
-the week after.
+#lorem(30)
 
-Questions before the day? Write to #text(weight: 700)[hello\@community.example.org] or join the weekly community call.
+Questions before the day? Write to #text(weight: 700)[hello\@community.example.org] or join the monthly community call.
 
 #v(10pt)
 #text(size: 9pt, fill: meta-ink)[Community Day 2026 · #text(fill: accent)[Saturday, Nov 7] · Location Town · community.example.org]

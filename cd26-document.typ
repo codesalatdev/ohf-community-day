@@ -1,8 +1,3 @@
-// Community Day 2026 — sample DIN A4 handout
-// Uses the faded A4 backdrop on every page.
-//
-// Compile:  typst compile cd26-document.typ
-
 #let ink = rgb("#09202E")
 #let accent = rgb("#2FA96F")
 #let meta-ink = ink.lighten(30%)
@@ -42,22 +37,17 @@
   v(5pt)
 }
 
-// ---------------------------------------------------------------- content
+// CONTENT
 
 #doc-heading(
   [Community Day 2026],
   [What to expect on Saturday, November 7 — a one-page guide for attendees],
 )
 
-One room, one community, a full morning of open-source. This handout sums up
-what the day is about, when things happen and what to bring. Numbers and names
-are placeholders — replace them with your own before printing.
+#lorem(30)
 
 #section-heading[Why this day matters]
-The Community Day brings the people behind community-led open-source projects
-together with the people who build on them. No parallel tracks, no vendor
-booths: four talks in the morning, a shared lunch and open space in the
-afternoon where anyone can pitch a topic on the fly.
+#lorem(30)
 
 #set list(marker: text(fill: accent)[•], indent: 8pt, body-indent: 12pt, spacing: 0.6em)
 - *Morning talks* — four 25-minute sessions with one break between
@@ -73,7 +63,7 @@ afternoon where anyone can pitch a topic on the fly.
   text(size: 9.5pt, weight: 700, fill: meta-ink)[Time],
   text(size: 9.5pt, weight: 700, fill: meta-ink)[What],
   [09:30], [Doors open, coffee & welcome],
-  [10:00], [Keynote — state of the foundation],
+  [10:00], [Keynote — state of the open home],
   [10:40], [Project deep dives (two talks)],
   [11:45], [Lightning talk sign-up],
   [12:15], [Lunch],
